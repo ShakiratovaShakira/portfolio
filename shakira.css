@@ -17,23 +17,37 @@ h1, h2{
   display: flex;
   background-color: #FFD0D0 ;
 }
-.aboutme{
-  position: absolute;  
+.aboutme{ 
   width: 100%;
   height: 100vh;  
   display: flex;
-  background-color: #F47C7C;
+  background-color: #FFE5E2;
 }
 .ukrash{
     left: 1%;
 }
-
+.pyatno{
+    position: 100px left;
+}
 .skills{
-    position: absolute;
     width: 100%;  
     height: 100vh;
     display: flex;
     background-color: #FFD0D0 ;
+  }
+  .achievements{
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    background-color: #FFE5E2 ;
+    left: 50%;
+  }
+  .ach1{
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    background-color: #FFD0D0 ;
+    left: 50%;
   }
 .box{
   padding: 0 150px 0 100px;  
@@ -59,10 +73,10 @@ h1{  font-size: 80px;
   margin: 0;}
 h2{  font-family: "Sedan", serif;
     margin: 0;
-  font-size: 20px;}
+  font-size: 30px;}
 .logo{        
     width: 100%;      
-   height: 200px;      
+    height: 200px;      
     background-color: #FFE5E2;        
     display: flex;   
     overflow:hidden;         }
@@ -70,10 +84,10 @@ h2{  font-family: "Sedan", serif;
  font-family: "Sedan", serif;
  background-color : #FFE5E2;
  margin-top: -200px;   
- margin-left: 500px;   }    
+ margin-left: 400px;   }    
 .class{     
  position: relative;    
- width: 400px;     
+ width: 700px;     
  height: 50px;    
  border-radius: 8px;    
  font-size: 0;    }    
@@ -93,39 +107,77 @@ a{
 h3{
     font-family: "Sedan", serif;
     margin: 0;
-  font-size: 120px;
-  color: #FFD0D0;
-  margin-top: -110px;
+  font-size: 100px;
+  color: #F65C78;
+  margin-top: -20px;
+  text-align: center;
  }
 h4{
     font-family: "Sedan", serif;
     margin: 0;
   font-size: 30px;
-  color: #FFD0D0;
+  color: #F65C78;
   margin-top: 60px;
 }
 h5{
     font-family: "Sedan", serif;
     margin: 0;
   font-size: 30px;
-  color: #FFD0D0;
+  color: #F65C78;
   margin-top: 90px;
+  left: 30%;
 }
 h6{
     font-family: "Sedan", serif;
     margin: 0;
   font-size: 30px;
-  color: #FFD0D0;
+  color: #F65C78;
   margin-top: 120px;
 }
+h{  font-size: 80px;
+    font-family:"Sedan", serif;
+    margin: 0; 
+    color: #F65C78;
+    margin-top: 120px;}
+.ach{
+    margin-left: 100px;
+    width: 500px;
+    margin-top: 1px;
+    
+} 
+.ach2{
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    background-color: #FFE5E2 ;
+    left: 50%;
+} 
+.ach3{
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    background-color: #FFD0D0 ;
+    left: 50%;
+} 
+.ach4{
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    background-color: #FFE5E2 ;
+    left: 50%;
+} 
+.contact{
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    background-color: #FFD0D0 ;
+  }
 .circle1{
-    z-index: 1;  
-    position: absolute;
-    width: 1px;  
-    height: 1px;
-    top: 30px;  
-    left: 0.5%;
-    box-shadow: 0px 0px 150px 150px #FFD0D0 ; }
+    width: 100px;  
+    height: 100px;
+    top: 1100px;  
+    left: 28%;
+    color: #F65C78 ; }
 .circle2{
         z-index: 1;  
         position: absolute;
@@ -134,21 +186,41 @@ h6{
         top: 30px;  
         left: 100%;
         box-shadow: 0px 0px 150px 150px #FFD0D0 ; }
-.h7{
+p{
     font-family: "Sedan", serif;
     margin: 0;
-  font-size: 30px;
-  color: #F47C7C;
-  margin-top: 120px;
+    font-size: 60px;
+    color: #F65C78;
+    top: 60px;
+  
 }
-
+.pr{
+    height: 50px;
+    width: 400px;
+    background-color: #F65C78;
+}
+.g2{
+    left: 30%;
+}
+.med{
+    top: 30px;  
+    left: 100%;
+ }
+.inst{
+    width: 300px;
+    height: 300px;
+}
+.tt{
+    width: 100px;
+    height: 100px;
+}
 .animation {    
   position: absolute;      
   height: 100%;    
   top: 0;    
   z-index: 0;      
   transition: all .5s ease 0s;    
-  border-radius: 8px;    
+  border-radius: 12px;    
 }    
 a:nth-child(1){      
   width: 100px;    
@@ -159,6 +231,12 @@ a:nth-child(2){
 a:nth-child(3){      
   width: 120px;    
 }    
+a:nth-child(4){      
+    width: 130px;    
+  }    
+  a:nth-child(5){      
+    width: 140px;    
+  }    
 .start-home, a:nth-child(1):hover~.animation{      
     width: 100px;    
     left: 0;    
@@ -167,7 +245,15 @@ a:nth-child(3){
     width: 110px;      
     left: 100px;    
   background-color: #FFD0D0;  }    
-  .start-skills, a:nth-child(3):hover~.animation{    
-    width: 120px;      
+.start-skills, a:nth-child(3):hover~.animation{    
+    width: 130px;      
     left: 210px;    
-    background-color:#FFD0D0; }    
+    background-color:#FFD0D0; }
+.start-achievments, a:nth-child(4):hover~.animation{    
+    width: 130px;      
+    left: 330px;    
+    background-color:#FFD0D0; }
+    .start-achievments, a:nth-child(5):hover~.animation{    
+        width: 140px;      
+        left: 460px;    
+        background-color:#FFD0D0; }
